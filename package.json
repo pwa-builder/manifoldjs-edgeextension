@@ -1,6 +1,6 @@
 {
   "name": "manifoldjs-edgeextension",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "ManifoldJS Microsoft Edge Extension Platform",
   "repository": {
     "type": "git",
@@ -36,10 +36,10 @@
   "dependencies": {    
     "q": "^1.4.1",
     "archiver": "^0.20.0",
-    "cloudappx-server": "^0.0.4",
+    "cloudappx-server": "^0.0.5",
     "request": "^2.67.0",
-    "hwa": "^0.0.5",
-    "manifoldjs-lib": "^0.1.2"
+    "hwa": "^0.0.7",
+    "manifoldjs-lib": "^1.0.0"
   },
   "devDependencies": {
     "blanket": "1.1.6",
