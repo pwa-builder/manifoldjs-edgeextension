@@ -10,8 +10,6 @@ Microsoft Edge Extension platform module for [ManifoldJS](https://github.com/man
 
 NodeJS: Install [nodejs](https://nodejs.org/) - NodeJS includes npm
 
-Git: Install [git](https://git-scm.com/) - This is needed to insall the ManifoldJS-EdgeExtension Platform until an npm package is published
-
 Windows 10 SDK: Included in [Visual Studio](https://www.visualstudio.com/) or Install the [standalone SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)
 
 ### ManifoldJS
@@ -19,14 +17,7 @@ Windows 10 SDK: Included in [Visual Studio](https://www.visualstudio.com/) or In
 From a shell with node / npm installed
 ```
 npm install -g manifoldjs
-```
 
-### Add ManifoldJS-EdgeExtension Platform
-
-From a shell with node / npm / git installed
-```
-manifoldjs platform add edgeextension https://github.com/MicrosoftEdge/manifoldjs-edgeextension.git
-```
 
 ## Usage
 
@@ -34,7 +25,7 @@ manifoldjs platform add edgeextension https://github.com/MicrosoftEdge/manifoldj
 
 From a shell with node / npm installed
 ```
-manifoldjs -m "<PATH TO EXTENSION DIRECTORY>/manifest.json" -p edgeextension
+manifoldjs -m "<PATH TO EXTENSION DIRECTORY>/manifest.json" -p edgeextension -f edgeextension [-l debug]
 ```
 
 
@@ -90,7 +81,7 @@ Square150x150Logo and Square44x44Logo
 ### Generate the Appx Package
 From a shell with node / npm installed
 ```
-manifoldjs package <EXTENSION NAME>/edgeextension/manifest
+manifoldjs package <EXTENSION NAME>/edgeextension/manifest  [-l debug]
 ```
 
 ## Documentation
