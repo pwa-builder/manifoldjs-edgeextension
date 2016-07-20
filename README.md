@@ -17,7 +17,7 @@ Windows 10 SDK: Included in [Visual Studio](https://www.visualstudio.com/) or In
 From a shell with node / npm installed
 ```
 npm install -g manifoldjs
-
+```
 
 ## Usage
 
