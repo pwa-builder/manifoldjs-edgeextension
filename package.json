@@ -1,5 +1,5 @@
 {
-  "name": "manifoldjs-edgeextension",
+  "name": "xanifoldjs-edgeextension",
   "version": "0.1.7",
   "description": "ManifoldJS Microsoft Edge Extension Platform",
   "repository": {
@@ -38,7 +38,7 @@
     "archiver": "^0.20.0",
     "cloudappx-server": "^0.0.6",
     "request": "^2.67.0",
-    "manifoldjs-lib": "^1.1.0"
+    "xanifoldjs-lib": "^1.1.0"
   },
   "devDependencies": {
     "blanket": "1.1.6",
