@@ -1,6 +1,6 @@
 {
   "name": "manifoldjs-edgeextension",
-  "version": "0.1.9",
+  "version": "0.1.8",
   "description": "ManifoldJS Microsoft Edge Extension Platform",
   "repository": {
     "type": "git",
