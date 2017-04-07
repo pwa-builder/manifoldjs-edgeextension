@@ -1,7 +1,7 @@
 {
-  "name": "manifoldjs-edgeextension",
-  "version": "0.1.7",
-  "description": "ManifoldJS Microsoft Edge Extension Platform",
+  "name": "pwabuilder-edgeextension",
+  "version": "2.0.0-rc.0",
+  "description": "PWA Builder Microsoft Edge Extension Platform",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manifoldjs/manifoldjs-edgeextension.git"
@@ -31,14 +31,16 @@
     "manifest",
     "Manifold",
     "ManifoldJS",
+    "PWA",
+    "PWA Builder",
     "Edge Extension"
   ],
-  "dependencies": {    
+  "dependencies": {
     "q": "^1.4.1",
     "archiver": "^0.20.0",
     "cloudappx-server": "^0.0.6",
     "request": "^2.67.0",
-    "manifoldjs-lib": "^1.1.0"
+    "pwabuilder-lib": "^2.0.0-rc"
   },
   "devDependencies": {
     "blanket": "1.1.6",
