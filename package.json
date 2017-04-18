@@ -1,6 +1,6 @@
 {
   "name": "pwabuilder-edgeextension",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.0-rc.2",
   "description": "PWA Builder Microsoft Edge Extension Platform",
   "repository": {
     "type": "git",
@@ -67,6 +67,6 @@
     "url": "https://github.com/manifoldjs/manifoldjs-edgeextension/issues"
   },
   "homepage": "https://github.com/manifoldjs/manifoldjs-edgeextension",
-  "readme": "#manifoldjs-edgeextension",
+  "readme": "#pwabuilder-edgeextension",
   "readmeFilename": "README.md"
 }

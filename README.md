@@ -1,8 +1,8 @@
-# ManifoldJS-EdgeExtension
+# PWA Builder-EdgeExtension
 
-## ManifoldJS Edge Extension Platform
+## PWA Builder Edge Extension Platform
 
-Microsoft Edge Extension platform module for [ManifoldJS](https://github.com/manifoldjs/ManifoldJS), a tool for creating hosted web applications based on a [W3C Web App manifest](http://www.w3.org/TR/appmanifest/).
+Microsoft Edge Extension platform module for [PWA Builder](https://github.com/manifoldjs/ManifoldJS), a tool for creating hosted web applications based on a [W3C Web App manifest](http://www.w3.org/TR/appmanifest/).
 
 ## Installation
 
@@ -12,11 +12,11 @@ NodeJS: Install [nodejs](https://nodejs.org/) - NodeJS includes npm
 
 Windows 10 SDK: Included in [Visual Studio](https://www.visualstudio.com/) or Install the [standalone SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)
 
-### ManifoldJS
+### PWA Builder
 
 From a shell with node / npm installed
 ```
-npm install -g manifoldjs
+npm install -g pwabuilder
 ```
 
 ## Usage
@@ -25,45 +25,45 @@ npm install -g manifoldjs
 
 From a shell with node / npm installed
 ```
-manifoldjs -m "<PATH TO EXTENSION DIRECTORY>/manifest.json" -p edgeextension -f edgeextension [-l debug]
+pwabuilder -m "<PATH TO EXTENSION DIRECTORY>/manifest.json" -p edgeextension -f edgeextension [-l debug]
 ```
 
 
 ### Validate appxmanifest.xml and Assets
 
 The following can be found at the [Windows Store Portal](https://dev.windows.com/) under the "App Identity" section of your application submission.
-For more help, follow the instructional video from [ManifoldJS](http://manifoldjs.com/).
+For more help, follow the instructional video from [PWA Builder](http://manifoldjs.com/).
 
 The appxmanifest.xml can be found in the "Working Directory"/"Extension Name"/edgeextension/manifest folder.
 
 Insert the correct Package Identity Name, Package Identity Publisher, and Version
 ```
-<Identity 
-	Name="INSERT-YOUR-PACKAGE-IDENTITY-NAME-HERE" 
-	Publisher="CN=INSERT-YOUR-PACKAGE-IDENTITY-PUBLISHER-HERE" 
+<Identity
+	Name="INSERT-YOUR-PACKAGE-IDENTITY-NAME-HERE"
+	Publisher="CN=INSERT-YOUR-PACKAGE-IDENTITY-PUBLISHER-HERE"
 	Version="1.0.0.0" />
 ```
 
 Insert the correct Publisher Display Name
 ```
-<Properties> 
-	<DisplayName>{DisplayName}</DisplayName> 
+<Properties>
+	<DisplayName>{DisplayName}</DisplayName>
 	<PublisherDisplayName>INSERT-YOUR-PACKAGE-PROPERTIES-PUBLISHERDISPLAYNAME-HERE</PublisherDisplayName>
-	<Logo>Assets\StoreLogo.png</Logo> 
-</Properties> 
+	<Logo>Assets\StoreLogo.png</Logo>
+</Properties>
 ```
 
-To change the image assets. Replace the stock image assets in the "Working Directory"/"Extension Name"/edgeextension/manifest/Assets directory. 
+To change the image assets. Replace the stock image assets in the "Working Directory"/"Extension Name"/edgeextension/manifest/Assets directory.
 
 If you have different names for your assets, change the names in the appxmanifest.xml.
 
 Logo
 ```
-<Properties> 
-	<DisplayName>{DisplayName}</DisplayName> 
+<Properties>
+	<DisplayName>{DisplayName}</DisplayName>
 	<PublisherDisplayName>INSERT-YOUR-PACKAGE-PROPERTIES-PUBLISHERDISPLAYNAME-HERE</PublisherDisplayName>
-	<Logo>Assets\StoreLogo.png</Logo> 
-</Properties> 
+	<Logo>Assets\StoreLogo.png</Logo>
+</Properties>
 ```
 
 Square150x150Logo and Square44x44Logo
@@ -81,18 +81,18 @@ Square150x150Logo and Square44x44Logo
 ### Generate the Appx Package
 From a shell with node / npm installed
 ```
-manifoldjs package <EXTENSION NAME>/edgeextension/manifest  [-l debug]
+pwabuilder package <EXTENSION NAME>/edgeextension/manifest  [-l debug]
 ```
 
 ## Documentation
-To get started, visit the ManifoldJS [wiki](https://github.com/manifoldjs/ManifoldJS/wiki).
+To get started, visit the PWA Builder [wiki](https://github.com/manifoldjs/ManifoldJS/wiki).
 
 ## Microsoft Open Source Code of Conduct
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## License
 
->manifoldjs-edgeextension
+>pwabuilder-edgeextension
 
 >Copyright (c) Microsoft Corporation
 
