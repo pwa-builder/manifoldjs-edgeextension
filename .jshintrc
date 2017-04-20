@@ -13,7 +13,7 @@
   "eqnull": true,
   "node": true,
   "quotmark": "single",
-
+  "multistr": true,
   "globals": {
     "after": false,
     "before": false,
